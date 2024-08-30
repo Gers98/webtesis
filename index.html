@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Imágenes Térmicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="background">
+            <img id="background-img" src="C:/Users/Gerson/Desktop/Imagenes/ImagenInicio.png" alt="Inicio">
+        </div>
+
+        <button id="btn-comenzar">Comenzar</button>
+        
+        <div id="opciones" style="display: none;">
+            <button id="btn-siguiente">Siguiente</button>
+            <button id="btn-atras">Atrás</button>
+            <button id="btn-cargar-datos">Cargar Datos</button>
+            <select id="tipo-camara">
+                <option value="Fluke">Fluke</option>
+                <option value="Flir">Flir</option>
+            </select>
+        </div>
+
+        <div id="continuar" style="display: none;">
+            <button id="btn-continuar">Continuar</button>
+            <button id="btn-previsualizar-datos">Previsualizar Datos</button>
+        </div>
+
+        <div id="preguntas" style="display: none;">
+            <!-- Aquí se agregarían los campos de preguntas -->
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
